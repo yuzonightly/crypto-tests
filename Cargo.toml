@@ -1,0 +1,16 @@
+[package]
+name = "crypto-tests"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ed25519-fun = { path = "./ed25519-fun" }
+ed25519-compact = { path = "./rust-ed25519-compact" }
+bigint = "4.4.3"
+num-bigint = "0.3"
+itertools = "0.9.0"
+serde = { version = "1.0", default-features = false, optional = true }
+minisign = { path = "rust-minisign" }
+hex = "*"

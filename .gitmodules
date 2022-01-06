@@ -1,0 +1,9 @@
+[submodule "ed25519-fun"]
+	path = ed25519-fun
+	url = https://github.com/yuzonightly/ed25519-fun.git
+[submodule "rust-minisign"]
+	path = rust-minisign
+	url = https://github.com/jedisct1/rust-minisign.git
+[submodule "rust-ed25519-compact"]
+	path = rust-ed25519-compact
+	url = https://github.com/jedisct1/rust-ed25519-compact.git

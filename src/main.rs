@@ -19,9 +19,6 @@ use ed25519_fun::*;
 use minisign::crypto::ed25519;
 use num_bigint::BigUint;
 
-// This code is using the ed25519-rust and minisign libraries.
-// ed25519-rust is the one being tested.
-
 pub fn not_the_serializer(sk: &str) -> [u8; 32] {
     let mut sk_bytes = [0u8; 32];
     for i in 0..32 {
